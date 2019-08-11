@@ -4,4 +4,6 @@
 
 - include: helm.yml
 
+- include: tiller.yml
+
 - include: charts.yml
