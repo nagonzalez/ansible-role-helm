@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-helm
+- include: requirements.yml
+
+- include: helm.yml
+
+- include: charts.yml

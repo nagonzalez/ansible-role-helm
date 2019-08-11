@@ -1,0 +1,25 @@
+---
+# defaults file for ansible-role-helm
+helm_version: 2.14.3
+
+helm_charts: []
+# - name: nginx
+#   version: 0.1.0
+#   release: nginx-test
+#   namespace: default
+#   source:
+#     type: git
+#     location: https://github.com/helm/helm.git
+#     reference: master
+#     path: docs/examples/nginx
+#   state: present
+#   values: {}
+# - name: memcached
+#   version: 0.4.0
+#   release: memcached-test
+#   namespace: default
+#   source:
+#     type: repo
+#     location: https://kubernetes-charts.storage.googleapis.com
+#   state: present
+#   values: {}
