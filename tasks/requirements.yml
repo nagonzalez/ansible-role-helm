@@ -3,15 +3,9 @@
   package:
     name: "{{ item }}"
     state: present
-  loop:
-    - epel-release
-    - git
-    - python2-pip
-    - python2-openshift
+  loop: "{{ helm_yum_packages }}"
 
 - name: install required pip packages
   pip:
     name: "{{ item }}"
-  loop:
-    - future
-    - pyhelm
+  loop: "{{ helm_pip_packages }}"
